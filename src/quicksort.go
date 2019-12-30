@@ -7,46 +7,46 @@ import (
 )
 
 func main() {
-	entrada := os.Args[1:]
-	numeros := make([]int, len(entrada))
+	input := os.Args[1:]
+	numbers := make([]int, len(input))
 
-	for i, n := range entrada {
-		numero, err := strconv.Atoi(n)
+	for i, n := range input {
+		number, err := strconv.Atoi(n)
 		if err != nil {
-			fmt.Printf("%s não é um número válido!\n", n)
+			fmt.Printf("%s is not a valid number!\n", n)
 			os.Exit(1)
 		}
-		numeros[i] = numero
+		numbers[i] = number
 	}
 
-	fmt.Println(quicksort(numeros))
+	fmt.Println(quicksort(numbers))
 }
 
-func quicksort(numeros []int) []int {
-	if len(numeros) <= 1 {
-		return numeros
+func quicksort(numbers []int) []int {
+	if len(numbers) <= 1 {
+		return numbers
 	}
 
-	n := make([]int, len(numeros))
-	copy(n, numeros)
+	n := make([]int, len(numbers))
+	copy(n, numbers)
 
-	indicePivo := len(n) / 2
-	pivo := n[indicePivo]
-	n = append(n[:indicePivo], n[indicePivo+1:]...)
+	pivotIndex := len(n) / 2
+	pivot := n[pivotIndex]
+	n = append(n[:pivotIndex], n[pivotIndex+1:]...)
 
-	menores, maiores := particionar(n, pivo)
+	smaller, bigger := partition(n, pivot)
 
-	return append(append(quicksort(menores), pivo), quicksort(maiores)...)
+	return append(append(quicksort(smaller), pivot), quicksort(bigger)...)
 }
 
-func particionar(numeros []int, pivo int) (menores, maiores []int) {
-	for _, n := range numeros {
+func partition(numbers []int, pivo int) (smaller, bigger []int) {
+	for _, n := range numbers {
 		if n <= pivo {
-			menores = append(menores, n)
+			smaller = append(smaller, n)
 		} else {
-			maiores = append(maiores, n)
+			bigger = append(bigger, n)
 		}
 	}
 
-	return menores, maiores
+	return smaller, bigger
 }
