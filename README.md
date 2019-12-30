@@ -1,4 +1,4 @@
-### Learning Go
+# Learning Go
 
 In this repository you find examples usefuls to learn how to develop using Golang.
 
@@ -6,7 +6,7 @@ In this repository you find examples usefuls to learn how to develop using Golan
 
 ## Contents
 
-# Quicksort
+### Quicksort
 
 Quicksort is a classic algorithm to sort a list of numbers. This scripts sorts a list of integers passed in the compiling command line.
 
