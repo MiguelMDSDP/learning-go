@@ -9,6 +9,7 @@ In this repository you find examples usefuls to learn how to develop using Golan
 1. [Quicksort](#quicksort)
 2. [Initials](#initials)
 3. [Stacks](#stacks)
+4. [Iterators](#iterators)
 
 <a name="quicksort"></a>
 ### Quicksort
@@ -38,3 +39,13 @@ In this code, we work on the concept of stacks using the construction of a new t
 ##### Running example
 
 > go run src/stacks.go
+
+
+<a name="iterators"></a>
+### Iterators
+
+In the example “iterators” we have the use of different types of for blocks, named or unnamed.
+
+##### Running example
+
+> go run src/iterators.go
