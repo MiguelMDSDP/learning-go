@@ -17,6 +17,7 @@ To use this project you must clone this repository and execute all the following
 4. [Iterators](#iterators)
 5. [Squares](#squares)
 6. [Shopping List](#shoppinglist)
+7. [Operations](#operations)
 
 <a name="quicksort"></a>
 ### Quicksort
