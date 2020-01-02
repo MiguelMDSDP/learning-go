@@ -18,6 +18,7 @@ To use this project you must clone this repository and execute all the following
 5. [Squares](#squares)
 6. [Shopping List](#shoppinglist)
 7. [Operations](#operations)
+8. [Reader](#reader)
 
 <a name="quicksort"></a>
 ### Quicksort
@@ -87,3 +88,13 @@ This code implements a new type and a interface to do calculations of sums and s
 ##### Running example
 
 > go run src/operations.go
+
+
+<a name="reader"></a>
+### Reader
+
+This example shows how to work with the standard library io.Reader.
+
+##### Running Example
+
+> go run src/reader.go
