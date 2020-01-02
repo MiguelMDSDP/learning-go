@@ -84,6 +84,6 @@ In this script we create new types based on the standard types of GoLang. This c
 
 This code implements a new type and a interface to do calculations of sums and subtractons using polymorphic structure.
 
-##### Running examlpe
+##### Running example
 
 > go run src/operations.go
