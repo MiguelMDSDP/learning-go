@@ -16,6 +16,7 @@ To use this project you must clone this repository and execute all the following
 3. [Stacks](#stacks)
 4. [Iterators](#iterators)
 5. [Squares](#squares)
+6. [Shopping List](#shoppinglist)
 
 <a name="quicksort"></a>
 ### Quicksort
@@ -65,3 +66,13 @@ In this example we learn how to work with sorted maps using a squares example.
 ##### Running example
 
 > go run src/squares.go
+
+
+<a name="shoppinglist"></a>
+### Shopping List
+
+In this script we create new types based on the standard types of GoLang. This code simulates a shopping list to work on this.
+
+##### Running example
+
+> go run src/shopping-list.go
