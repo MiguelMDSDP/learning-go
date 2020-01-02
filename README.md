@@ -3,6 +3,11 @@
 In this repository you find examples usefuls to learn how to develop using Golang.
 
 
+## Using
+
+To use this project you must clone this repository and execute all the following commands on the root directory.
+
+> git clone https://github.com/MiguelMDSDP/learning-go.git
 
 # Contents
 
@@ -10,6 +15,7 @@ In this repository you find examples usefuls to learn how to develop using Golan
 2. [Initials](#initials)
 3. [Stacks](#stacks)
 4. [Iterators](#iterators)
+5. [Squares](#squares)
 
 <a name="quicksort"></a>
 ### Quicksort
@@ -49,3 +55,13 @@ In the example “iterators” we have the use of different types of for blocks,
 ##### Running example
 
 > go run src/iterators.go
+
+
+<a name="squares"></a>
+### Squares
+
+In this example we learn how to work with sorted maps using a squares example.
+
+##### Running example
+
+> go run src/squares.go
