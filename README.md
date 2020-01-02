@@ -76,3 +76,13 @@ In this script we create new types based on the standard types of GoLang. This c
 ##### Running example
 
 > go run src/shopping-list.go
+
+
+<a name="operations"></a>
+### Operations
+
+This code implements a new type and a interface to simulate calculations of sums and subtractons using polymorphic structure.
+
+##### Running examlpe
+
+> go run src/operations.go
