@@ -110,3 +110,13 @@ This code calculates the final price in real and dollars and shows us how to wor
 ##### Running example
 
 > go run src/prices.go
+
+
+<a name="files"></a>
+### Files
+
+This script shows us how to work with files using the os native library and how to work with variadic functions.
+
+##### Running examle
+
+> go run src/files.go
