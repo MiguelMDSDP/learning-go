@@ -20,6 +20,7 @@ To use this project you must clone this repository and execute all the following
 7. [Operations](#operations)
 8. [Reader](#reader)
 9. [Prices](#prices)
+10. [Files](#files)
 
 <a name="quicksort"></a>
 ### Quicksort
