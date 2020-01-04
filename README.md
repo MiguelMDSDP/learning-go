@@ -19,6 +19,7 @@ To use this project you must clone this repository and execute all the following
 6. [Shopping List](#shoppinglist)
 7. [Operations](#operations)
 8. [Reader](#reader)
+9. [Prices](#prices)
 
 <a name="quicksort"></a>
 ### Quicksort
@@ -98,3 +99,14 @@ This example shows how to work with the standard library io.Reader.
 ##### Running Example
 
 > go run src/reader.go
+
+
+<a name="prices"></a>
+### Prices
+
+This code calculates the final price in real and dollars and shows us how to work with named returns.
+
+
+##### Running example
+
+> go run src/prices.go
